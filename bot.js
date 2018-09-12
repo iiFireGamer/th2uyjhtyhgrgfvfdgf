@@ -24,8 +24,6 @@ hours = hours - 12;
 if (hours == 0) {
 hours = 12;
 }
-client.on('ready', () => {
-  client.user.setGame(`g!giveaway`,'https://www.twitch.tv/TEST-Broadcast');
   var filter = m => m.author.id === message.author.id;
   if(message.content.startsWith(prefix + "giveaway")) {
 
