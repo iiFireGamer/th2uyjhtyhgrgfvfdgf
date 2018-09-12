@@ -24,6 +24,7 @@ hours = hours - 12;
 if (hours == 0) {
 hours = 12;
 }
+
   var filter = m => m.author.id === message.author.id;
   if(message.content.startsWith(prefix + "giveaway")) {
 
@@ -88,4 +89,4 @@ hours = 12;
     });
   }
 });
- client.login("NDg4MDMzOTA2NTkxNzkzMTUz.DnWjzg.f9iE_DhJzfBfATVvDK2diuswFjw");
+ client.login("NDg4MDMzOTA2NTkxNzkzMTUz.Dnsf2w.mkmg8xkCDE4P5KFQeuA3zRe5sKs");
